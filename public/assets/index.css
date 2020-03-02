@@ -1,5 +1,10 @@
 body {
   background-color: #668f9f;
 }
+body #camerasSolContainer {
+  background-color: #e1dede;
+  width: 100%;
+  height: 5em;
+}
 
 /*# sourceMappingURL=index.css.map */
