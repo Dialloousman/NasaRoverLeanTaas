@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import CamerasSolContainer from './components/camerasSolContainer.jsx';
+import CamerasSolContainer from './components/CamerasSolContainer.jsx';
+import CameraInfoCard from './components/CameraInfoCard.jsx';
+
 
 const App = () => (
   <div>
     <CamerasSolContainer />
-    <h1>
-      Hello World Baby!
-    </h1>
+    Main Containter
+    <CameraInfoCard />
   </div>
 );
 
