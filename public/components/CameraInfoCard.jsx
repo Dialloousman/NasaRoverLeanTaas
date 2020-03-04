@@ -9,9 +9,7 @@ const CameraInfoCard = () => (
     <p>
       Photos: 4
     </p>
-    <p>
-      Sample Photo:
-    </p>
+    <img src="https://mars.jpl.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044631300503690E01_DXXX.jpg" />
   </div>
 );
 

@@ -4,10 +4,11 @@ import CameraInfoCard from './components/CameraInfoCard.jsx';
 
 
 const App = () => (
-  <div>
+  <div data-test="mainAppTest">
     <CamerasSolContainer />
-    Main Containter
-    <CameraInfoCard />
+    <main>
+      <CameraInfoCard />
+    </main>
   </div>
 );
 

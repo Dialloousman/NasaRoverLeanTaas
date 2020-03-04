@@ -26,4 +26,5 @@ describe('Card component', () => {
     const wrapper = component.find('[data-test="CameraInfoCardComponent"]');
     expect(wrapper.length).toBe(1);
   });
+  
 });
