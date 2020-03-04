@@ -4,11 +4,11 @@ const CamerasSolContainer = () => (
   <div id="camerasSolContainer" data-test="CameraSolComponent">
     <div>
       <li>Cameras</li>
-      <button>7 Selected</button>
+      <button type="button">7 Selected</button>
     </div>
     <div>
       <li>Sol</li>
-      <button>14</button>
+      <button type="button">14</button>
     </div>
   </div>
 );

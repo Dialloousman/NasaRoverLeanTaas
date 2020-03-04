@@ -8,12 +8,18 @@ body {
         padding: 1em;
         display: flex;
         flex-direction: row;
-        li {
-            list-style: none;
-            font-weight: bold;
+        div {
             margin-right: 1em;
+            li {
+                list-style: none;
+                font-weight: bold;
+                margin-right: 1em;
+            }
+            button {
+                height: 5em;
+                width: 8em;
+            }
         }
-        
     }
     .CameraInfoCard {
         background-color: red;
